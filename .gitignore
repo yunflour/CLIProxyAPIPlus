@@ -5,7 +5,6 @@ cliproxy
 
 
 # Configuration
-config.yaml
 .env
 .mcp.json
 # Generated content
