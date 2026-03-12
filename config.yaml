@@ -15,27 +15,25 @@ tls:
 remote-management:
   # Whether to allow remote (non-localhost) management access.
   # When false, only localhost can access management endpoints (a key is still required).
-  allow-remote: false
+  allow-remote: true
 
   # Management key. If a plaintext value is provided here, it will be hashed on startup.
   # All management requests (even from localhost) require this key.
   # Leave empty to disable the Management API entirely (404 for all /v0/management routes).
-  secret-key: ''
+  secret-key: '142503'
 
   # Disable the bundled management control panel asset download and HTTP route when true.
   disable-control-panel: false
 
   # GitHub repository for the management control panel. Accepts a repository URL or releases API URL.
-  panel-github-repository: 'https://github.com/router-for-me/Cli-Proxy-API-Management-Center'
+  panel-github-repository: 'https://github.com/erik6293/Cli-Proxy-API-PLUS-Management-Center/releases/tag/v1.4.9-plus.1'
 
 # Authentication directory (supports ~ for home directory)
 auth-dir: '~/.cli-proxy-api'
 
 # API keys for authentication
 api-keys:
-  - 'your-api-key-1'
-  - 'your-api-key-2'
-  - 'your-api-key-3'
+  - '142503'
 
 # Enable debug logging
 debug: false
